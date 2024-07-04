@@ -1,5 +1,4 @@
-import React ,{useState} from 'react'
-import { Link } from 'react-router-dom'
+import React ,{useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { submitForm } from './Reducers/ContactReducer';
 
@@ -37,8 +36,7 @@ const currentContact= useSelector(state=>state.contacts.contacts)
   return (
     <div className='container'>
         <h1> ContactForm </h1>
-        <Link to="/" className='btn btn-success my-3'  > Home </Link>
-        <div className="row">
+      <div className="row">
             <div className="col-md-12">
                 <form onSubmit={handleSubmit}>
                
