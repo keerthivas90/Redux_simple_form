@@ -35,7 +35,7 @@ const currentContact= useSelector(state=>state.contacts.contacts)
   
   return (
     <div className='container'>
-        <h1> ContactForm </h1>
+        <h1> Redux Simple Form </h1>
       <div className="row">
             <div className="col-md-12">
                 <form onSubmit={handleSubmit}>

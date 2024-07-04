@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       
-        <h1> Redux Contact Form  </h1> 
         
         <ContactForm />
     </div>
